@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wema.employeebio_dataapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_iconsquare"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_iconcircle"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EmployeeBioDataApp">
+        <activity
+            android:name=".Admin.ForgetPasswordSuccessMessage"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.SetNewPassword"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.MakeSelection"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.ForgetPassword"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.VerifyOTP"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.SignUp3rdClass"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.SignUp2ndClass"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.Login"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminLoginScreen"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ProfilePage"
+            android:exported="false"
+            android:parentActivityName=".SearchPage" />
+        <activity
+            android:name=".SearchPage"
+            android:exported="false" />
+        <activity
+            android:name=".SuccessPage"
+            android:exported="false"
+            android:parentActivityName=".RegistrationPage" />
+        <activity
+            android:name=".RegistrationPage"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

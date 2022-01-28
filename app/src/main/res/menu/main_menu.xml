@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/ic_outline_home_24" />
+        <item
+            android:id="@+id/nav_search"
+            android:title="Search"
+            android:icon="@drawable/ic_outline_person_search" />
+
+        <item
+            android:id="@+id/nav_search_by_batch"
+            android:title="Search by batch"
+            android:icon="@drawable/ic_outline_groups" />
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="Photo Gallery"
+            android:icon="@drawable/icon_gallery" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:title="About the BIT program"
+            android:icon="@drawable/ic_outline_info" />
+
+    </group>
+
+    <item android:title="For Administrators">
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@drawable/menu_unlock"
+                    android:title="Log in"
+                    android:onClick="callLoginScreen"/>
+
+                <item
+                    android:id="@+id/nav_add_user"
+                    android:title="Add BIT"
+                    android:icon="@drawable/ic_outline_person_add" />
+            </group>
+
+        </menu>
+    </item>
+
+    <item android:title="Share">
+        <menu>
+
+            <group android:checkableBehavior="none">
+                <item
+                    android:id="@+id/nav_share"
+                    android:title="Share"
+                    android:icon="@drawable/ic_outline_share_24" />
+
+                <item
+                    android:id="@+id/nav_rate_us"
+                    android:title="Rate us"
+                    android:icon="@drawable/ic_outline_star_rate_24" />
+            </group>
+
+        </menu>
+    </item>
+
+</menu>

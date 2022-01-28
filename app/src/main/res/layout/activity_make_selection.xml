@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightWhite"
+    android:padding="30dp"
+    tools:context=".Admin.ForgetPassword">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:src="@drawable/general_back_icon"
+            app:tint="@color/black" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/muli_bold"
+            android:text="Forgot your password?"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/muli"
+            android:text="Select which contact details should we use to reset\n your password:"
+            android:textSize="15sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="50dp"
+            android:background="#EFEFEF"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/mobile_icon"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/mobile_custom_icon"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"/>
+
+            <TextView
+                android:id="@+id/mobile_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/muli"
+                android:text="via SMS"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/mobile_icon"
+                android:layout_marginTop="45dp"/>
+
+            <TextView
+                android:id="@+id/mobile_des"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:fontFamily="@font/muli"
+                android:text="+2348166249470"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/mobile_icon"
+                android:layout_below="@id/mobile_title"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00000000" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="20dp"
+            android:background="#EFEFEF"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/mail_icon"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/mail_icon"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"/>
+
+            <TextView
+                android:id="@+id/mail_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/muli"
+                android:text="via Mail"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/mail_icon"
+                android:layout_marginTop="45dp"/>
+
+            <TextView
+                android:id="@+id/mail_des"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:fontFamily="@font/muli"
+                android:text="example@outlook.com"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/mail_icon"
+                android:layout_below="@id/mail_title"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00000000" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

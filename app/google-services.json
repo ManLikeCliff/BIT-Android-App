@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "900508618879",
+    "project_id": "employeebio-dataapp",
+    "storage_bucket": "employeebio-dataapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900508618879:android:7906c699e6d9c2db70ef4a",
+        "android_client_info": {
+          "package_name": "com.wema.employeebio_dataapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "900508618879-g5jkc2rqebq8uo89kutbq5tq7d813opj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBUQKzw3Ijs5y_ha4XVUHy1D_hBvehnKo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "900508618879-g5jkc2rqebq8uo89kutbq5tq7d813opj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

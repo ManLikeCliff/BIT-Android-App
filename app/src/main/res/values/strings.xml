@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Employee Bio-Data App</string>
+
+    <string-array name="names">
+        <item>Core Banking</item>
+        <item>Software Engineering</item>
+        <item>Data Science</item>
+        <item>Information Security</item>
+    </string-array>
+
+    <string-array name="states">
+        <item>Abuja</item>
+        <item>Kogi</item>
+        <item>Lagos</item>
+        <item>Rivers</item>
+    </string-array>
+</resources>
